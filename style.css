@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textView{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(242 242 247);
+}
+.textMessage{
+    height: 20%;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textMessage input{
+    width: 30vw;
+    text-align: center;
+}
+.text1{
+    width: 100%;
+    font-size: xx-large;
+    background-color: #1C1C1C;
+    border: none;
+    color: rgb(242 242 247);
+}
+input{
+    width: fit-content;
+}
+
+.calcolatrice{
+    border: #1C1C1C solid;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    background-color: #1C1C1C;;
+}
+.div2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.calc{
+    width: 75%; 
+}
+.operatori{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    border-radius: 100%;
+    border: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 0;
+    font-size: 200%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.buttonOper{
+    background-color: #FF9500;
+    color : rgb(242 242 247);
+    margin-bottom: 7%;
+    margin-right: 10%;
+    margin-top: 7%;
+    margin-left: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;   
+}
+.buttonCalc{
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    background-color: #505050;
+    color: rgb(242 242 247);
+}
+.canc{
+    display: flex;
+    flex-direction: row;
+}
+#buttonC{
+    background-color: #D4D4D2;    
+}
